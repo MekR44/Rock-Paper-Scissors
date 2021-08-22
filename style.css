@@ -1,0 +1,76 @@
+/*Define color palette*/
+:root {
+  --blue: #3d405b;
+  --green: #81b29a;
+  --yellow: #f2cc8f;
+  --orange: #e07a5f;
+  --beige: #f4f1de; 
+}
+
+
+body {
+  margin:2em;
+  padding:0;
+  background-color:var(--beige);
+  color:var(--blue);
+  display:block-flex;
+  justify-content:center;
+  text-align:center;
+}
+
+#container {
+  background-color:var(--yellow);
+  border-radius:10%;
+  margin:auto;
+  max-width:700px;
+  padding:2em;
+}
+
+h1 {
+  font-size:40px;
+ }
+
+button {
+ background-color:var(--green);
+  margin:.5em;
+  padding:1em;
+  font-size: 1.25em;
+  font-weight:500;
+  border:none;
+  border-radius:10%;
+}
+
+button:hover {
+  background-color:var(--orange);
+  box-shadow: -4px 8px 6px 0px var(--green);
+  transition:color .3s, box-shadow .3s;
+}
+
+main p {
+  font-size:1.25em;
+
+}
+
+#winner-announce {
+  font-weight:bold;
+  padding:1em;
+}
+
+footer {
+  display:flex;
+  justify-content:center;
+  margin-top:5em;
+}
+
+footer p {
+  background-color:var(--blue);
+  color: var(--beige);
+  max-width:50%;
+  border-radius:5%;
+  padding:.5em;
+  font-size:medium;
+}
+
+.highlight {
+  color:var(--orange);
+}
